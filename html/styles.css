@@ -1,0 +1,92 @@
+
+body {
+    background-color: #F0F8FF;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#offersTable{
+position: relative;
+margin: auto;
+margin-top: 120px;
+
+}
+
+#tableHeading {
+position: relative;
+background: #f3bfd1;
+
+}
+
+#offersB {
+    position: relative;
+    text-align:center;
+    background: whitesmoke;
+}
+
+#offersP {
+    position: relative;
+    background: whitesmoke;
+}
+
+
+#button {
+    position:relative;
+    
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+/*
+  .requestInfo{
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+  }
+
+.requestNO:hover .requestInfo {
+    display: block;
+  }
+  */
+
+/* change the color when hover src:w3s*/
+tr:hover {background-color: #D6EEEE;} 
+#firstRow:hover {
+    background-color:whitesmoke
+}
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: white;
+    color: #293462;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 150px;
+  }
+
+.footer{
+/*background-color: #66c0bf;*/
+padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+
+  
+ 
+
+
+
+
