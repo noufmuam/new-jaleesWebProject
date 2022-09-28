@@ -1,6 +1,6 @@
 
 body {
-    width:2280px;
+    width:auto;
     height: auto;
     margin:auto; 
     color: #293462;
@@ -9,10 +9,9 @@ body {
 }
 
 #topHeader{
-  height: 200px;
+  height: auto;
   width: auto;
-  background-color: #66bfbf; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#66bfbf,#eaf6f6);
+  background-color: #66bfbf; 
 }
 
 
@@ -22,6 +21,8 @@ body {
   position: relative;
   text-align: center;
   padding: 20px;
+  margin-bottom: auto;
+  z-index: 1;
 }
 
 /* Increase the font size of the heading */
@@ -102,9 +103,11 @@ tr:hover {background-color: #D6EEEE;}
 
 .footer{
   padding: 20px;
+  margin-block-end: auto;
+  margin-bottom: 0;
   text-align: center;
   text-decoration: none; 
-  background-image: linear-gradient(#eaf6f6,#66bfbf);
+  background-color: #66bfbf;
 }
 
 
