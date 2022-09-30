@@ -10,7 +10,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-/* Header/logo Title */
+/* Header/logo */
 .header {
   height: 350px;
   width: auto;
@@ -39,13 +39,14 @@ margin-top: 120px;
 
 }
 
-#tableHeading {
+.tableHeading {
 position: relative;
 background: #293462;
 color: white;
 
 }
 
+/* babysitters' table */
 #offersB {
     position: relative;
     text-align:center;
@@ -53,6 +54,7 @@ color: white;
     margin-bottom: 200px;
 }
 
+/* parents' table */
 #offersP {
     position: relative;
     background: white;
@@ -62,7 +64,6 @@ color: white;
 
 #button {
     position:relative;
-    
 }
 
 
@@ -79,12 +80,13 @@ color: white;
     display: none;
     background-color: white;
     border-radius: 25px;
-    padding: 20px;
+    padding: 10px;
   }
 
   .requestNum:hover .requestDetails{
     display: block;
   }
+
 
   .babysitterProfile{
     padding: 2px 16px;
@@ -94,17 +96,28 @@ color: white;
     display: none;
     background-color: white;
     border-radius: 25px;
-    padding: 20px;
+    padding: 10px;
   }
 
   .babysitterPic:hover .babysitterProfile{
     display: block;
   }
 
+  .detailsBox{
+    display: none;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+  }
+
+  .details:hover .detailsBox{
+    display: block;
+  }
+
 
 
 /* change the color when hover src:w3s*/
-tr:hover {background-color: #D6EEEE;} 
+tr:hover {background-color: #d1e7f8;} 
 #firstRow:hover {
     background-color:whitesmoke
     
@@ -140,13 +153,19 @@ li a:hover {
   border-left: 6px solid #f44336;
 }
 
+#info {
+  color: #111;
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
 .footer{
   padding: 20px;
   background-color: white;
   margin-bottom: 0;
   text-align: center;
   text-decoration: none; 
-  position: sticky;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
