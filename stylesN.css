@@ -8,7 +8,6 @@ body {
     height: auto;
     margin:0; 
     color: #293462;
-    
     background-image:url(homepic2.svg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -70,13 +69,40 @@ color: white;
     position: relative;
     background: white;
     margin-bottom: 200px;
+    font-size: 25px;
 }
 
 
-#button {
-    position:relative;
-    font-size: 22px;
-    margin-left: 10px;
+
+
+.button2{
+  width: 130px;
+  height:60px ;
+  border: none;
+  background-color: #eaf6f6;
+  color: #66bfbf;
+  border-radius: 15px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+.button3{
+  width: 130px;
+  height:60px ;
+  border: none;
+  background-color: #ffe6e6;
+  color: #ff8080;
+  border-radius: 15px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+}
+
+.button2:disabled,.button3:disabled{
+  opacity: 50%;
 }
 
 
