@@ -28,10 +28,10 @@ body {
 
 
 #logo {
-  float: left;
-  width: 100px;
-  height: 100px;
-  z-index: 3;
+  position: relative;
+  top:-250px;
+  left: 100px;
+  width: 2000px;
 }
 
 
