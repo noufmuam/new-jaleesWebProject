@@ -1,0 +1,167 @@
+body{
+    height: 1200px;
+    background-image: url(pichome-px.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+.pro-box{
+    height: 1220px;
+    width: 500px;
+    color: #66BFBF;
+    background-color:#ffffff;
+    
+    border-radius:  35px;
+    margin:auto ;
+    margin-top: 20px;
+    padding-left: 100px;
+    border: solid #eaf6f6;
+    
+   
+
+}
+#Profile{
+    
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    
+    padding-right:100px;
+
+    color: #66BFBF;
+
+}
+
+form input{
+    width: 75%; 
+    
+ padding: 10px;
+ border-color: #66BFBF ;
+ border-width: thin;
+ border-style: solid;
+ border-radius: 15px;
+ margin-bottom: 8px;
+ 
+ 
+ 
+ }
+
+
+ .button1{
+   width: 140px;
+   height:35px ;
+   border: none;
+   background-color: #eaf6f6;
+   color: #66bfbf;
+   border-radius: 20px;
+   font-size: medium;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-left: 45px;
+   
+ }
+
+ .button2{
+    width: 140px;
+    height:35px ;
+    border: none;
+    background-color: #eaf6f6;
+    color: #66bfbf;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    
+  }
+  textarea{
+    border:solid #66BFBF thin;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+select{
+    border:solid #66BFBF thin;
+    border-radius: 15px;
+    color: #66BFBF;
+    width: 80%;
+    height: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    
+}
+.footer{
+
+    color: #293462;
+    
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none; 
+    background-color: #eaf6f6;
+      }
+
+      a{
+        color: #66bfbf;
+     
+      }
+      a:hover{
+        color: #70f4f4;
+      }
+     
+
+    
+      #topheader{
+        height: 150px;
+        width: 100%;
+        background-color: #eaf6f6;
+        
+        
+      }
+
+      .header{
+        position: relative;
+        text-align: center;
+        margin-bottom: auto;
+        z-index: 1;
+      }
+
+      .header img{
+        position: absolute;
+        top:-100px;
+        left: 390px;
+        height: 469px;
+
+
+      }
+    
+
+
+  
+  
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #293462;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li #h {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }  
