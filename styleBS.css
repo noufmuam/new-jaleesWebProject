@@ -1,0 +1,178 @@
+body{
+    height: 1500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(nwe3back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+
+.signupBS-box{
+    height: 1250px;
+    width: 500px;
+    color: #66BFBF;
+    background-color:#ffffff;
+
+    border-radius:  35px;;
+    margin-left: 85px;
+    margin-top: 90px;
+    padding-right: 10px;
+    padding-left: 800px;
+    background-image: url(signpx.svg) ;
+ 
+
+    background-repeat: no-repeat;
+    
+   
+    
+   
+
+}
+
+
+
+#signup{
+    
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-right:100px;
+
+    color: #66BFBF;
+    
+    
+
+
+}
+
+form input{
+    width: 75%; 
+    
+ padding: 10px;
+ border-color: #66BFBF ;
+ border-width: thin;
+ border-style: solid;
+ border-radius: 15px;
+ margin-bottom: 8px;
+
+ 
+ 
+ 
+ }
+
+ input[type="submit"]{
+    width:200px ;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 95px;
+    color:#ffffff;
+    border-style: none;
+    border-radius: 25px;
+    font-size: large;
+    background-image: url(backgroundlight4.svg);
+    
+    
+
+}
+select{
+    border:solid #66BFBF thin;
+    border-radius: 15px;
+    color: #66BFBF;
+    width: 80%;
+    height: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    
+}
+textarea{
+    border:solid #66BFBF thin;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#login{
+    padding-left: 90px;
+}
+a{
+    color: #29a9a9;
+}
+
+a:hover{
+    color: #70f4f4;
+}
+
+
+.footer{
+
+    color: #293462;
+    padding: 20px;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: none; 
+    background-color: #eaf6fe;
+    width: 100%;
+          }
+
+          
+      #topheader{
+        height: 150px;
+        width: 100%;
+        background-color: #eaf6f6;
+        
+        
+      }
+
+      .header{
+        position: relative;
+        text-align: center;
+        margin-bottom: auto;
+        z-index: 1;
+      }
+
+      .header img{
+        position: absolute;
+        top:-100px;
+        left: 390px;
+        height: 469px;
+
+
+      }
+    
+
+
+  
+  
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #293462;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li #h {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
