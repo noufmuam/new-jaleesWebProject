@@ -1,0 +1,129 @@
+
+body {
+    width:100%;
+    height: auto;
+    margin:0; 
+    color: #293462;
+    background-image:url(homepic2.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* Header/logo */
+.header {
+  height: 350px;
+  width: auto;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: auto;
+  background: #eafcfa;
+}
+
+
+#logo {
+  position: relative;
+  top:-250px;
+  left: 100px;
+  width: 2000px;
+}
+
+
+
+.tableDiv{
+position: relative;
+margin: auto;
+margin-top: 120px;
+overflow: scroll;
+padding-bottom: 500px;
+width: 50%;
+}
+
+.tableHeading {
+position: relative;
+background: #293462;
+color: white;
+
+}
+
+#myTable {
+    border: 1px solid black;
+    position: relative;
+    text-align:center;
+    background: white;
+    margin-bottom: 200px;
+    font-size: 25px;
+}
+
+
+
+/* changes the color when hover src:w3s*/
+tr:hover {background-color: #d1e7f8;} 
+#firstRow:hover {
+    background-color:white
+    
+}
+
+
+#button {
+    position:relative;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+
+  
+
+/* Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #293462;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+.footer{
+  background: #eafcfa;
+  padding: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: none; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 22px;
+}
