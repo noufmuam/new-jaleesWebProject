@@ -1,0 +1,153 @@
+body{
+    height:800px ;
+    background-color: #ffffff;
+    background-image: url(pichome-px.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+ .Profile-box{
+    height: 660px;
+    width: 550px;
+    color: #293462;
+    background-color: #ffffff;
+    border: #eaf6f6 solid thin;
+    border-radius: 35px;
+    margin-left: 450px;
+    margin-top: 90px;
+    
+    padding-left: 45px;
+    
+ }
+
+ p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    
+
+    color: #293462;
+ }
+
+ .profilepic{
+    height: 200px;
+    width: 250px;
+    border:solid #ffffff  thin;
+    border-radius: 50%;
+    background-image: url(pp-pic2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-position: center;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    
+    
+
+    
+    
+ }
+
+ .button1{
+   width: 90px;
+   height:30px ;
+   border: none;
+   background-color: #eaf6f6;
+   color: #ff0063;
+   border-radius: 15px;
+   font-size: medium;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-left: 140px;
+   margin-top: 50px;
+ }
+ .button2{
+   width: 90px;
+   height:30px ;
+   border: none;
+   background-color: #eaf6f6;
+   color: #66bfbf;
+   border-radius: 15px;
+   font-size: medium;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-left: 11px;
+   margin-top: 50px;
+ }
+
+ a{
+   color: #66bfbf;
+
+ }
+ a:hover{
+   color: #70f4f4;
+ }
+
+ .footer{
+  width: 100%;
+  color: #293462;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none; 
+  background-color: #eaf6f6;
+        }
+
+
+        #topheader{
+          height: 150px;
+          width: 100%;
+          background-color: #eaf6f6;
+          
+          
+        }
+  
+        .header{
+          position: relative;
+          text-align: center;
+          margin-bottom: auto;
+          z-index: 1;
+        }
+  
+        .header img{
+          position: absolute;
+          top:-100px;
+          left: 390px;
+          height: 469px;
+  
+  
+        }
+      
+  
+  
+    
+    
+    
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #293462;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li #h {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+ 
