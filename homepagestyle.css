@@ -1,0 +1,509 @@
+body{
+    background-image: url(homepic2.svg);
+    background-size:1000px;
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 1;
+   
+}
+
+
+
+.home .signin a{
+    font-size: 14px; 
+    color:deepskyblue;
+}
+
+.home .signin p.signup{
+font-size: 14px;
+
+
+
+}
+
+
+.parentOrbabysitter{
+
+    width:270px;
+    height:90px;
+    border: 1px solid #66bfbf;
+    border-radius:7px;
+    margin-bottom:15px;
+    margin-left:280px; 
+    margin-top:14px;
+    padding-left:14px;
+    padding-top:8px;
+    background-color: #ffffffbb;
+    
+    font-size:22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #55a4a4;
+    
+
+
+
+
+}
+.parentOrbabysitter .checkbs ,.parentOrbabysitter  .checkp {/*-----buttons-------*/
+       width:100px;
+        height:20px;
+        margin-bottom:6px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #66bfbf;
+        border-radius: 14px;
+        border:none;
+        background-color: #eaf2f3;
+        font-size: 14px;
+        font-weight:bold;
+        
+        
+}
+
+.parentOrbabysitter .checkbs{
+    position: absolute;
+    top:220px;
+    left:300px;
+    
+
+}
+
+
+
+
+.parentOrbabysitter  .checkp{
+    position: absolute;
+    top:195px;
+    left:300px;
+    
+
+}
+
+
+
+
+.signin {
+   
+    margin-top:15px;
+    margin-left:280px; 
+    margin-bottom: 10px;
+    height:280px;
+    width:270px;
+    border:1px solid #66bfbf;
+    border-radius: 7px;
+    padding-left:14px;
+    padding-top:15px;
+    background-color:#ffffffbb;
+    
+
+
+}
+
+
+
+.signin input.submitbutton{ /*buttons*/
+width:90px;
+height:30px;
+margin-left:6px;
+margin-top:18px;
+background-color:#eaf6f6;
+color:#66bfbf;
+padding:5px ;
+border:none;
+border-radius:15px;
+font-size: medium;
+font-weight: bold;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.signininfo{/*buttons*/
+    border-radius: 15px;
+   border:1px solid #66bfbf;
+    width:210px;
+    margin-left: 4px;
+    margin-bottom: 6px;;
+    padding:5px;
+    color:#293462;
+    background-color: #f3fefe;
+   font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+
+
+
+
+    h3{
+        display: inline;
+        color:#293462
+
+       
+    }
+    
+
+
+.signup  {
+    margin-top:130px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1px;
+
+}
+
+p.signup  a {
+text-decoration: none;
+}
+
+p.signup  a:hover{
+    text-decoration: underline;
+    }
+p.signup{
+color:#293462
+
+
+}
+
+
+
+.content{
+    position: absolute;
+    left:700px;
+    top:150px;
+    padding:15px;
+    width:300px;
+    background-color:#ffffffc8;
+    border:1px solid #66bfbf;
+    height:270px;
+    border-radius:26px;
+    }
+    
+    .content p{
+    width:300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:#293462;
+    }
+
+
+
+/*parent and babysitter home page -------------------------------------------*/
+ .homepage 
+{
+    
+    height:350px;
+    width:380px;
+    border-radius: 35px;
+    background-color: #eaf2f3; ;
+    margin-left:150px;
+    margin-top:23px;
+    margin-bottom:23px;
+    z-index: 2;
+}
+
+.profile p {
+    text-decoration: none;
+    margin-left:20px;
+   
+    color: #293462;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+
+.profile {
+position:absolute;
+width:110px;
+
+background: #59cdbf96;
+
+margin-left:50px;
+margin-top:45px;
+border-radius:16px;
+}
+
+ a:hover .profile{
+    background-color:#58aea49a;
+
+
+}
+
+.profile img
+{
+position: relative;
+top:18px;
+left:30px;
+width: 50px;
+height:50px;
+
+
+
+
+}
+.requests p {
+    text-decoration: none;
+    margin-left:12px;
+    color: #293462;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+.requests {
+        position:absolute;
+        left:190px;
+        margin-top:45px;
+        width:110px;
+        background: #59cdbf96;
+
+        margin-left:175px;
+        border-radius: 16px;
+
+}
+a:hover .requests{
+    
+
+background-color:#58aea49a;
+    
+    }
+.requests img
+{
+position: relative;
+top:15px;
+left:40px;
+width:50px;
+height:50px;
+}
+
+.offers p{
+    text-decoration: none;
+    margin-left:30px;
+    
+    color: #293462;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    }
+.offers{
+    position:absolute;
+  
+    margin-top:180px;
+    width:110px;
+    background: #59cdbf96;
+    margin-left:50px;
+    border-radius:16px;
+}
+a:hover .offers{
+    background-color:#58aea49a;
+    
+    
+    }
+
+.offers img
+{
+position: relative;
+top:15px;
+left:30px;
+width:50px;
+height:50px;
+}
+.bookings p {
+    text-decoration: none;
+    margin-left:10px;
+    color: #293462;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.bookings{
+    position:absolute;
+    left:190px;
+    margin-top:180px;
+    width:110px;
+    height:100;
+    background: #59cdbf96;
+    margin-left:175px;
+    border-radius: 16px;}
+
+    a:hover .bookings{
+        background-color:#58aea49a;
+        
+        
+        }
+.bookings img
+    {
+    position: relative;
+    top:15px;
+    left:30px;
+    width:50px;
+    height:50px;
+    }
+    
+
+
+.JobsandReviews p {
+    text-decoration: none;
+    margin-left:7px;
+    color: #293462;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+
+}
+a:hover .JobsandReviews{
+    background-color:#58aea49a;
+    
+    
+    }
+.JobsandReviews{
+    position:absolute;
+    left:190px;
+    margin-top:180px;
+    width:110px;
+    height:120;
+    background: #59cdbf96;
+    margin-left: 175px;
+    border-radius:16px;
+}
+
+
+.JobsandReviews img
+{
+position: relative;
+top:15px;
+left:28px;
+width:50px;
+height:50px;
+}
+
+
+
+
+
+/*----------------------------------HEADER----------------*/
+#topHeader{
+    height:130px;
+    width: auto;
+    background-color: #e9fcfa;
+    border-bottom: 0.5px solid #d3d3d4;
+  }
+  
+  
+  
+  /* Header/logo Title */
+  .header {
+    position: relative;
+    text-align: center;
+    
+    margin-bottom: auto;
+    z-index: 1;
+  }
+  
+
+.header img{
+    position:absolute;
+    top:-100px;
+    left:450px;
+    width:450px;
+    height:460px;
+   
+    
+}
+
+/*-------------------------FOOTER-------------------------------------*/
+
+
+.footer{
+    padding:0px;
+    margin-block-end: auto;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none; 
+    background-color: #e9fcfa;
+    border-top: 0.5px solid #d3d3d4;
+    height:75px;
+  }
+
+.footer h6{
+
+padding:4px;
+margin:0px;
+
+}
+
+
+
+
+.photo img{
+    position: absolute;
+    left:745px;
+    bottom:120px;
+    width:450px;
+    height:350px;
+    
+    
+}
+
+input.signoutbutton {
+    position: absolute;
+    left:1090px;
+    top:50px;
+ 
+    width:90px;
+    height:30px;
+    margin-left:3px;
+    background-color:#66bfbf;
+    color:#eaf2f3;
+    padding:5px ;
+    border:none;
+    border-radius:15px;
+    font-size: medium;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.signupas {
+    
+    width:270px;
+    height:110px;
+    border: 1px solid #057c7c;
+    border-radius:7px;
+    margin-bottom:148px;
+    margin-left:300px; 
+    margin-top:147px;
+    padding-left:14px;
+    padding-top:8px;
+    background-color: #ffffffbb;
+    font-weight: bold;
+    font-size:19px;
+    color: #66bfbf;
+    
+}
+
+
+
+
+.signupas  .checkp ,.signupas .checkbs{
+    width:100px;
+    height:30px;
+    
+    margin-bottom:6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #66bfbf;
+    border-radius: 14px;
+    border:none;
+    background-color: #eaf2f3;
+    font-size: 16px;
+    font-weight:bold;
+    
+    
+    }
+
+ .signupas   .checkp{
+position: absolute;
+top:327px;
+left:330px;
+
+
+    }
+ .signupas   .checkbs{
+        position: absolute;
+        top:365px;
+        left:330px;
+            }

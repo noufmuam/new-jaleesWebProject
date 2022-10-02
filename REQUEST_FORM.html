@@ -1,0 +1,331 @@
+<DOCTYPE html>
+<html lang="en-US">
+<head>
+<title> request form </title>
+
+<Style type = "text/css">
+body{
+    height: 2000px;
+    background-image:  url(homepic2.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+.pro-box{
+  
+    width: 600px;
+    color: #66BFBF;
+    background-color:#ffffff;
+    
+    border-radius:  35px;
+    margin:auto ;
+    margin-top: 20px;
+    padding-left: 50px;
+	padding-right: 50px;
+    border: solid #eaf6f6;
+    
+}
+
+#Profile{
+    
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left:100px;
+    padding-right:100px;
+
+    color: #66BFBF;
+	float: center;
+
+}
+
+form input{   
+ padding: 10px;
+ border-color: #66BFBF ;
+ border-width: thin;
+ border-style: solid;
+ border-radius: 15px;
+ margin-bottom: 8px;
+ }
+ 
+ 
+
+
+ .button1{
+   width: 140px;
+   height:35px ;
+   border: none;
+   background-color: #eaf6f6;
+   color: #66bfbf;
+   border-radius: 20px;
+   font-size: medium;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-left: 45px;
+   padding-bottom : 10px;
+   
+ }
+
+ .button2{
+  width: 140px;
+   height:35px ;
+   border: none;
+   background-color: #ffe6e6;
+   color: #ff4d4d;
+   border-radius: 20px;
+   font-size: medium;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-left: 45px;
+   margin-left : center;
+    float : center;
+    
+  }
+textarea{
+    border:solid #66BFBF thin;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+select{
+    border:solid #66BFBF thin;
+    border-radius: 15px;
+    color: #66BFBF;
+    width: 47%;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    
+}
+.footer{
+
+    color: #293462;
+    
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none; 
+    background-color: #eaf6f6;
+      }
+
+      a{
+        color: #66bfbf;
+     
+      }
+      a:hover{
+        color: #70f4f4;
+      }
+     
+
+    
+      #topheader{
+        height: 150px;
+        width: 100%;
+        background-color: #eaf6f6;
+        
+        
+      }
+
+      .header{
+        position: relative;
+        text-align: center;
+        margin-bottom: auto;
+        z-index: 1;
+      }
+
+      .header img{
+    position:absolute;
+    top:-100px;
+    left:350px;
+    width: 800px;
+    height:450px;
+   
+    
+}
+
+  
+</style>
+
+</head>
+<body>
+
+<!-- header -->
+<div id="topHeader">
+	<div class="header">
+	<img class="header"src="logo.newcolor.png" alt="logo-pic" id="logo">
+	</div>
+</div>
+
+
+ <h1 id ="Profile"> request form </h1>
+ 
+ <form name="request form" action="#" method="post" autocomplete="on" enctype="text/plain">
+ 
+<fieldset class="pro-box">
+
+  <legend>Basic info.</legend>
+  
+  
+  
+	<label>Parent's name: <br>
+		<input type="text" name = "pname" required> </label>
+	<br><br>
+	<label>Kid's name: <br>
+		<input type="text" name = "kidname" required> </label>
+<br><br>
+	
+	<label>Kid's age: </label> <br> 
+		<input type="radio" name ="baby" value = "(baby)">
+ 
+	<label>5 months – 18 months (baby)</label>
+<br> 
+		<input type="radio" name ="toddler" value = "toddler)">
+
+	<label>18 months – 3 years (toddler)</label>
+<br>
+		<input type="radio" name ="Preschooler" value ="(Preschooler)">
+ 
+	<label>3 – 5 years (Preschooler)</label>
+<br>
+		<input type="radio" name ="school age" value ="school age)">
+  
+    <label>6 – 9 years (school age)</label>
+<br> 
+		<input type="radio" name ="preteen" value ="(preteen)">
+ 
+    <label>10 – 12 years (preteen)</label>
+<br><br>
+  
+	<label>Specific needs:</label><br>
+		<input type="textarea" name="Specificneeds" size="50" placeholder= "ex. : Disabilities, Diseases, Allergies, etc."><br>
+  
+<br>
+	<label>Type of service: 
+<br>
+  
+		<input type="checkbox" name= "infant care">
+	<label >Cares for infants, including feeding, diapering, and dressing</label> <br>
+  
+		<input type="checkbox" name="prepare meals">
+	<label>Prepares healthy meals</label> <br>
+  
+		<input type="checkbox" name="medication">
+	<label>Administering Medications</label> <br>
+  
+		<input type="checkbox" name="housework">
+	<label>Laundry and light housework</label> <br>
+  
+		<input type="checkbox" name="transport">
+	<label>Transports children, including school pickup and drop-off</label> <br>
+  
+		<input type="checkbox" name="tutoring">
+	<label>Helps with homework and tutoring</label> <br>
+  
+		<input type="checkbox" name="playing">
+	<label>Playing games and having fun</label>
+	
+<br><br>
+
+
+	<label>Date and time:</label> <br>
+		<input type="datetime-local" name="datetime" required> 
+		
+<br><br>
+
+	<label>Duration: </label> <br>
+		<input list="duration" name="duration" size="8" required>
+  <datalist id="duration">
+  
+    <option value="One hour">
+    <option value="Two hours">
+    <option value="Three hours">
+    <option value="Four hours">
+    <option value="Five hours">
+	<option value="six hours">
+	
+  </datalist>
+  
+<br>
+</fieldset>
+
+<br> 
+
+<fieldset class="pro-box">
+
+  <legend>location info.</legend>
+  
+  
+	<label>City:</label> <br>
+  <select class="select" name="city" required>
+  
+		<option value="Riyadh">Riyadh</option>
+		<option value="Mecca">Mecca</option>
+		<option value="Medina">Medina</option>
+		<option value="Jeddah">Jeddah</option>
+		<option value="Dammam">Dammam</option>
+		<option value="Tabuk">Tabuk</option>
+		<option value="Taif">Taif</option>
+		
+  </select>
+  
+<br><br>
+
+	<label>Neighborhood:</label><br> 
+		<input type="text" name = "Neighborhood" size="8" required><br><br>
+  
+	<label>Street:</label> <br>
+		<input type="text" name = "Street" size="8" required><br><br>
+  
+	<label>house / Apartment number:</label><br> 
+		<input type="text" name = "Apartmentnum" size="8" required><br>
+ 
+<br>
+
+</fieldset>
+
+<br>
+
+<fieldset class="pro-box">
+
+  <legend>Contact info.</legend>
+  
+  
+	<label>Email Address:</label>
+		<input type="email" placeholder="example@netcom.com" required> <br><br>
+  
+	<label>Phone number: </label>
+		<input type="tel" name="phone" placeholder="05X-XXX-XXXX" required>
+		
+		
+</fieldset>
+
+
+<br>
+
+  <div style= "text-align: center;" >
+  
+		<input class="button1" type="submit" value="Submit">
+		
+		<input class="button1" type="reset" value="Reset">
+		
+		<button class="button2" type="button" onclick="window.history.back();">Cancel</button>
+  
+  </div>
+  
+ </form>
+
+
+
+<!-- footer -->
+<div class= "footer">
+	<h6>2022 © All Rights Reserved.</h6>
+	<h6>Group #5 - SWE381</h6>
+  <img src="twitter.png" height="28px" width="36px" style="display:inline;">
+  <a href="https://twitter.com/KSU_SWE?s=20&t=T1w22L7jsr5HGk9orEJfbg">Contact us</a>
+	</div>
+</body>
+</html> 
